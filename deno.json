@@ -1,0 +1,11 @@
+{
+  "tasks": {
+    "start": "deno run --allow-env --allow-net --watch app.ts",
+    "dev": "deno run --env --allow-env --allow-net --watch app.ts"
+  },
+  "imports": {
+    "envalid": "npm:envalid@^8.0.0",
+    "h3": "npm:h3@^1.15.3",
+    "~/": "./"
+  }
+}
